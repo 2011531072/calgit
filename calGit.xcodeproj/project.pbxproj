@@ -453,6 +453,7 @@
 				AC5FD466182B69140030317F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC5FD467182B69140030317F /* Build configuration list for PBXNativeTarget "calGitTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +462,7 @@
 				AC5FD469182B69140030317F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
