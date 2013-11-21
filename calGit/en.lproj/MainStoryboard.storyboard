@@ -162,7 +162,7 @@
                                     <action selector="CLRbtn:" destination="2" eventType="touchUpInside" id="spc-EW-9ZN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Gn3-aN-JPc">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Gn3-aN-JPc">
                                 <rect key="frame" x="20" y="397" width="73" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -174,7 +174,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="plusbtn:" destination="2" eventType="touchUpInside" id="nz5-7G-jDg"/>
+                                    <action selector="enznbtn:" destination="2" eventType="touchUpInside" id="75w-pl-hnu"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GCx-bl-rNk">
@@ -192,7 +192,7 @@
                                     <action selector="zerobtn:" destination="2" eventType="touchUpInside" id="5Tz-YT-xJP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TVn-Hl-ab5">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TVn-Hl-ab5">
                                 <rect key="frame" x="227" y="397" width="73" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -204,7 +204,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="minasbtn:" destination="2" eventType="touchUpInside" id="Vr7-Bl-PEj"/>
+                                    <action selector="enznbtn:" destination="2" eventType="touchUpInside" id="7m9-oS-QPR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7bR-4k-hco">
@@ -229,7 +229,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mzZ-fr-NXF">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mzZ-fr-NXF">
                                 <rect key="frame" x="20" y="139" width="73" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -241,10 +241,10 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="multbtn:" destination="2" eventType="touchUpInside" id="uhn-DL-cPy"/>
+                                    <action selector="enznbtn:" destination="2" eventType="touchUpInside" id="TVa-I4-peQ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uot-Uk-Qwb">
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uot-Uk-Qwb">
                                 <rect key="frame" x="227" y="139" width="73" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -256,7 +256,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="divbtn:" destination="2" eventType="touchUpInside" id="GTc-ff-DCK"/>
+                                    <action selector="enznbtn:" destination="2" eventType="touchUpInside" id="20A-4o-0Dv"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -286,46 +286,6 @@
             </objects>
         </scene>
     </scenes>
-    <classes>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="CLRbtn:"/>
-                <relationship kind="action" name="divbtn:"/>
-                <relationship kind="action" name="eightbtn:"/>
-                <relationship kind="action" name="equalbtn:"/>
-                <relationship kind="action" name="fivebtn:"/>
-                <relationship kind="action" name="fourbtn:"/>
-                <relationship kind="action" name="minasbtn:"/>
-                <relationship kind="action" name="multbtn:"/>
-                <relationship kind="action" name="ninebtn:"/>
-                <relationship kind="action" name="onebtn:"/>
-                <relationship kind="action" name="plusbtn:"/>
-                <relationship kind="action" name="sevenbtn:"/>
-                <relationship kind="action" name="sixbtn:"/>
-                <relationship kind="action" name="threebtn:"/>
-                <relationship kind="action" name="twobtn:"/>
-                <relationship kind="action" name="zerobtn:"/>
-                <relationship kind="outlet" name="CLR" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="display" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="div" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="eight" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="equal" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="five" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="four" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="minas" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="mult" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="nine" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="one" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="plus" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="seven" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="six" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="three" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="two" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="zero" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

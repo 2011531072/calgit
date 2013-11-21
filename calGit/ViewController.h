@@ -39,8 +39,5 @@
 -(IBAction)ninebtn:(id)sender;
 -(IBAction)CLRbtn:(id)sender;
 -(IBAction)equalbtn:(id)sender;
--(IBAction)plusbtn:(id)sender;
--(IBAction)minasbtn:(id)sender;
--(IBAction)multbtn:(id)sender;
--(IBAction)divbtn:(id)sender;
+-(IBAction)enznbtn:(id)sender;
 @end
