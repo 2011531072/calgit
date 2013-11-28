@@ -19,6 +19,7 @@
 
 @implementation ViewController
 
+
 -(IBAction)numbtn:(id)sender
 {
     UIButton *numButton = (UIButton *)sender;
@@ -33,39 +34,21 @@
     dotto = 0;
     display.text = [NSString stringWithFormat:@"%g",countNumber];
 }
+
 -(IBAction)equalbtn:(id)sender
 {
-    if(enzns==0){
-        countNumber = nowNumber;
-    }else if(enzns==1){
-        countNumber = countNumber + nowNumber;
-    }else if(enzns==2){
-        countNumber = countNumber - nowNumber;
-    }else if(enzns==3){
-        countNumber = countNumber*nowNumber;
-    }else if(enzns==4){
-        countNumber = countNumber/nowNumber;
-    }
-    nowNumber = 0;
+    [self calcresult];
+    nowNumber = countNumber;
+    enzns = 0;
     display.text = [NSString stringWithFormat:@"%g",countNumber];
+
 }
 
 -(IBAction)enznbtn:(id)sender
 {
     UIButton *enznButton = (UIButton *)sender;
-    if(enzns==0){
-        countNumber = nowNumber;
-    }else if(enzns==1){
-        countNumber = countNumber + nowNumber;
-    }else if(enzns==2){
-        countNumber = countNumber - nowNumber;
-    }else if(enzns==3){
-        countNumber = countNumber*nowNumber;
-    }else if(enzns==4){
-        countNumber = countNumber/nowNumber;
-    }
+    [self calcresult];
     enzns = enznButton.tag;
-    nowNumber = 0;
     display.text = @"0";
 }
 
@@ -73,6 +56,22 @@
 {
    // dotto = 1;
     display.text = @"実装予定です";
+}
+
+- (void)calcresult
+{
+    if(enzns==0){
+        countNumber = nowNumber;
+    }else if(enzns==1){
+        countNumber = countNumber + nowNumber;
+    }else if(enzns==2){
+        countNumber = countNumber - nowNumber;
+    }else if(enzns==3){
+        countNumber = countNumber*nowNumber;
+    }else if(enzns==4){
+        countNumber = countNumber/nowNumber;
+    }
+    nowNumber = 0;
 }
 
 - (void)viewDidLoad
