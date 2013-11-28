@@ -25,19 +25,13 @@
     IBOutlet UIButton *minas;
     IBOutlet UIButton *mult;
     IBOutlet UIButton *div;
+    IBOutlet UIButton *dot;
     IBOutlet UILabel *display;
 }
--(IBAction)zerobtn:(id)sender;
--(IBAction)onebtn:(id)sender;
--(IBAction)twobtn:(id)sender;
--(IBAction)threebtn:(id)sender;
--(IBAction)fourbtn:(id)sender;
--(IBAction)fivebtn:(id)sender;
--(IBAction)sixbtn:(id)sender;
--(IBAction)sevenbtn:(id)sender;
--(IBAction)eightbtn:(id)sender;
--(IBAction)ninebtn:(id)sender;
+
+-(IBAction)numbtn:(id)sender;
 -(IBAction)CLRbtn:(id)sender;
 -(IBAction)equalbtn:(id)sender;
 -(IBAction)enznbtn:(id)sender;
+-(IBAction)dotbtn:(id)sender;
 @end
