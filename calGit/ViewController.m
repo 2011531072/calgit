@@ -14,11 +14,9 @@
     int enzns;
     int dotto;
 }
-
 @end
 
 @implementation ViewController
-
 
 -(IBAction)numbtn:(id)sender
 {
@@ -26,6 +24,7 @@
         nowNumber = nowNumber*10 + numButton.tag;
         display.text = [NSString stringWithFormat:@"%g",nowNumber];
 }
+
 -(IBAction)CLRbtn:(id)sender
 {
   countNumber = 0;
